@@ -1,0 +1,20 @@
+{
+    "titleSite": "Développeur web",
+    "home": {
+        "title": "Bienvenue",
+        "presentation": {
+            "history": {
+                "text1": "Après une réorientation professionnelle de deux ans, j’ai  obtenu un bac+2 en développement web et web mobile, suivi d’une licence informatique en alternance (3IL).",
+                "text2": "En novembre 2020, une intégration au sein de CYIM en tant que développeur Drupal m’a permis de participer à la création de sites institutionnels pour des congrès scientifiques et des sociétés savantes. Par la suite, en janvier 2022, une transition vers le pôle Registration a offert l’opportunité d’apprendre Vue.js pour développer un système de gestion des inscriptions. Plusieurs déploiements ont été réalisés lors de congrès à Vienne et Paris, renforçant ainsi l’expérience en mise en production et en gestion de solutions techniques en conditions réelles."
+            },
+            "passion": {
+                "text1": "Ce qui me passionne dans le développement web, c’est avant tout l’apprentissage et l’amélioration continue de mes compétences.",
+                "text2": "J’aime travailler en équipe pour concevoir des projets fonctionnels et engageants, et j’éprouve une réelle satisfaction à résoudre des problématiques complexes.",
+                "text3": "Pour moi, être développeur web, ce n’est pas simplement coder seul devant un écran, mais collaborer avec d’autres passionnés pour transformer une idée en une solution concrète.",
+                "text4": "Au fil de mon parcours, j’ai développé une appétence particulière pour le front-end, mais je reste ouvert à la possibilité d’explorer un peu plus le back-end dans le futur."
+            }
+
+
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "titleSite": "Web developer",
+    "home": {
+        "title": "Welcome",
+        "presentation": {
+    "history": {
+        "text1": "After a two-year professional retraining, I obtained a two-year degree in web and mobile development, followed by a bachelor's degree in computer science through a work-study program (3IL).",
+        "text2": "In November 2020, I joined CYIM as a Drupal developer, where I contributed to the creation of institutional websites for scientific conferences and learned societies. Later, in January 2022, I transitioned to the Registration team, which gave me the opportunity to learn Vue.js and develop a registration management system. Several deployments were carried out during conferences in Vienna and Paris, strengthening my experience in production rollouts and managing technical solutions in real-world conditions."
+    },
+    "passion": {
+        "text1": "What I am passionate about in web development is, above all, continuous learning and the improvement of my skills.",
+        "text2": "I enjoy working in a team to design functional and engaging projects, and I find real satisfaction in solving complex problems.",
+        "text3": "For me, being a web developer is not just about coding alone in front of a screen, but collaborating with other passionate people to turn an idea into a concrete solution.",
+        "text4": "Throughout my journey, I have developed a strong interest in front-end development, but I remain open to exploring more of the back-end in the future."
+    }
+}
+
+    }
+}

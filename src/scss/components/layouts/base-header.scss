@@ -1,0 +1,57 @@
+@use '../../index' as *;
+
+header {
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 6;
+    height: 5em;
+    padding: 0.5rem;
+  
+    width: 100%;
+
+    img {
+        height: 100%;
+    }
+
+    @media screen and (max-width:767px) {
+      h1 {
+        display: none;
+      }
+    }
+
+    .language {
+  
+        padding-left: 1em;
+        margin-right: 1em;
+  
+        display: flex;
+        gap: .5em;
+        align-items: center;
+        justify-content: center;
+  
+        button {
+          border-radius: 1rem;
+          width: 3rem;
+          height: 2rem;
+  
+          &.fr {
+            background: url(/assets/images/flag-fr.png);
+            background-size: cover;
+            filter: grayscale(100%);
+          }
+  
+          &.en {
+            background: url(/assets/images/flag-en.png);
+            background-size: cover;
+            filter: grayscale(100%);
+          }
+  
+          &.active,
+          &:hover {
+            filter: none;
+          }
+        }
+      }
+}
