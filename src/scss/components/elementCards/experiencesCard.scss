@@ -1,0 +1,23 @@
+@use '../../index' as *;
+
+.experience {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: auto;
+        height: 4rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    p:last-child {
+        font-size: 0.9rem;
+    }
+}

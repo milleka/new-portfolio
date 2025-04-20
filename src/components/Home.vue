@@ -38,11 +38,14 @@
         :key="index"
         :title="card.title"
         :frontImage="card.frontImage"
-        :description="card.description"
         :link="card.link"
         :isFlipped="activeCard === index"
         @flip="flipCard(index)"
-      />
+      >
+      <template #back-component>
+        <component :is="card.backComponent" />
+      </template>
+    </FlipCard>
   </div>
 
 </template>
@@ -52,6 +55,11 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import { useI18n } from "vue-i18n";
 import FlipCard from './FlipCard.vue';
 
+import SkillsCard from './elementCards/SkillsCard.vue';
+import TrainingsCard from './elementCards/TrainingsCard.vue'
+import ExperiencesCard from './elementCards/ExperiencesCard.vue'
+import HobbiesCard from './elementCards/HobbiesCard.vue'
+ 
 const { t } = useI18n();
 
 const images = [
@@ -66,26 +74,26 @@ const cards = [
   {
     title: 'home.cards.skills.title',
     frontImage: '/assets/images/competences.jpg',
-    description: 'home.cards.skills.description',
+    backComponent: SkillsCard,
     link: '/competences',
   },
   {
     title: 'home.cards.training.title',
     frontImage: '/assets/images/formation.jpg',
-    description: 'home.cards.training.description',
+    backComponent: TrainingsCard,
     link: '/formations',
   },
   {
     title: 'home.cards.experience.title',
     frontImage: '/assets/images/experiences.jpg',
-    description: 'home.cards.experience.description',
+    backComponent: ExperiencesCard,
     link: '/experiences',
   },
   {
     title: 'home.cards.hobbies.title',
     frontImage: '/assets/images/loisir.jpg',
-    description: 'home.cards.hobbies.description',
-    link: '/loisirs',
+    backComponent: HobbiesCard,
+    link: '/hobbies',
   },
 ];
 
