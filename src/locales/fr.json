@@ -15,6 +15,21 @@
             }
 
 
+        },
+        "cards": {
+            "skills": {
+                "title":"Compétences"
+
+            },
+            "training": {
+                "title":"Formations"
+            },
+            "experience": {
+                "title":"Expériences"
+            },
+            "hobbies": {
+                "title":"Loisirs"
+            }
         }
     }
 }

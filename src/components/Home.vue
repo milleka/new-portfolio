@@ -30,11 +30,27 @@
     </div>
   </div>
 
+  <h2 class="parcours">Mon parcours</h2>
+
+  <div class="card-section">
+    <FlipCard
+        v-for="(card, index) in cards"
+        :key="index"
+        :title="card.title"
+        :frontImage="card.frontImage"
+        :description="card.description"
+        :link="card.link"
+        :isFlipped="activeCard === index"
+        @flip="flipCard(index)"
+      />
+  </div>
+
 </template>
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useI18n } from "vue-i18n";
+import FlipCard from './FlipCard.vue';
 
 const { t } = useI18n();
 
@@ -45,6 +61,39 @@ const images = [
   '/assets/images/profile-3.jpg',
   '/assets/images/profile-4.jpeg'
 ];
+
+const cards = [
+  {
+    title: 'home.cards.skills.title',
+    frontImage: '/assets/images/competences.jpg',
+    description: 'home.cards.skills.description',
+    link: '/competences',
+  },
+  {
+    title: 'home.cards.training.title',
+    frontImage: '/assets/images/formation.jpg',
+    description: 'home.cards.training.description',
+    link: '/formations',
+  },
+  {
+    title: 'home.cards.experience.title',
+    frontImage: '/assets/images/experiences.jpg',
+    description: 'home.cards.experience.description',
+    link: '/experiences',
+  },
+  {
+    title: 'home.cards.hobbies.title',
+    frontImage: '/assets/images/loisir.jpg',
+    description: 'home.cards.hobbies.description',
+    link: '/loisirs',
+  },
+];
+
+const activeCard = ref(null);
+
+function flipCard(index) {
+  activeCard.value = activeCard.value === index ? null : index;
+}
 
 const currentImageIndex = ref(0);
 let intervalId = null;
