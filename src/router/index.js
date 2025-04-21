@@ -2,6 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import HomeView from "../views/HomeView.vue";
 import HobbieView from "../views/HobbieView.vue";
+import ExperiencesView from "../views/ExperiencesView.vue";
+import SkillsView from "../views/SkillsView.vue"
+import TrainingsView from "../views/TrainingsView.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_APP_ORIGIN),
@@ -15,6 +18,21 @@ const router = createRouter({
       component: HobbieView,
       name: "hobbie",
       path: "/hobbies"
+    },
+    {
+      component: ExperiencesView,
+      name: "experiences",
+      path: "/experiences"
+    },
+    {
+      component: SkillsView,
+      name: "skills",
+      path: "/skills"
+    },
+    {
+      component: TrainingsView,
+      name: "trainings",
+      path: "/trainings"
     },
   ],
   scrollBehavior: () => ({ left: 0, top: 0 })

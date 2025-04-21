@@ -1,0 +1,12 @@
+@use "sass:map";
+@use "/node_modules/@mdi/font/scss/variables" as *;
+
+// the icon name in parameter and that it
+@mixin icon($icon-name) {
+  content: #{'"\\'}#{map.get($mdi-icons, $icon-name) +  '"'};
+}
+
+@mixin variable-icon-font($icon-code) {
+    content: #{'"\\'}#{$icon-code + '"'};
+  }
+  

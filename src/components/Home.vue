@@ -30,7 +30,7 @@
     </div>
   </div>
 
-  <h2 class="parcours">Mon parcours</h2>
+  <h2 class="parcours">{{ $t('home.myJourney') }}</h2>
 
   <div class="card-section">
     <FlipCard
@@ -75,13 +75,13 @@ const cards = [
     title: 'home.cards.skills.title',
     frontImage: '/assets/images/competences.jpg',
     backComponent: SkillsCard,
-    link: '/competences',
+    link: '/skills',
   },
   {
     title: 'home.cards.training.title',
     frontImage: '/assets/images/formation.jpg',
     backComponent: TrainingsCard,
-    link: '/formations',
+    link: '/trainings',
   },
   {
     title: 'home.cards.experience.title',

@@ -15,7 +15,7 @@
         <div class="flip-card-back">
           <slot name="back-component" />
           <button class="more-button" @click.stop="goToPage">
-            En savoir plus
+            {{ $t('home.cards.learnMore') }}
           </button>
         </div>
       </div>

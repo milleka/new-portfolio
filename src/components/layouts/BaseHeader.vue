@@ -1,6 +1,6 @@
 <template>
     <header>
-        <img src="/assets/images/logo.png" alt="my-logo" />
+        <a href="/"><img src="/assets/images/logo.png" alt="my-logo" /></a>
         <h1>{{ $t('titleSite') }}</h1>
         <div class="language">
             <button

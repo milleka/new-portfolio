@@ -1,5 +1,5 @@
 <template>
-    <h3>Framework | Librairies | Logiciel utilisés</h3>
+    <h3>{{ $t('skillsCard.framework.title') }}</h3>
     <div class="block">
         <div class="line">
             <img src="/assets/images/icon/drupal.png" alt="drupal"/>
@@ -20,28 +20,28 @@
             <img src="/assets/images/icon/vuetify.png" alt="vuetify"/>
         </div>
     </div>
-    <h3>Compétences générales</h3>
+    <h3>{{ $t('skillsCard.skills.title') }}</h3>
     <div class="block">
         <div class="line">
             <div>
                 <img src="/assets/images/icon/team-building.png" alt="team" />
-                <p>Travail en équipe</p>
+                <p>{{ $t('skillsCard.skills.work') }}</p>
             </div>
             <div>
                 <img src="/assets/images/icon/adaptabilite.png" alt="adaptation" />
-                <p>Adaptation</p>
+                <p>{{ $t('skillsCard.skills.adaptation') }}</p>
             </div>
             <div>
                 <img src="/assets/images/icon/passionne.png" alt="passionne" />
-                <p>Curieux</p>
+                <p>{{ $t('skillsCard.skills.curieux') }}</p>
             </div>
             <div>
                 <img src="/assets/images/icon/ampoule.png" alt="ampoule" />
-                <p>Passionné</p>
+                <p>{{ $t('skillsCard.skills.passion') }}</p>
             </div>
         </div>
     </div>
-    <h3>Certifications obtenues</h3>
+    <h3>{{ $t('skillsCard.certif.title') }}</h3>
     <div class="block">
         <div class="line">
             <img src="/assets/images/icon/docker.png" alt="docker"/>
@@ -52,6 +52,9 @@
 </template>
 
 <script setup>
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
 </script>
 
 <style lang="scss" scoped>

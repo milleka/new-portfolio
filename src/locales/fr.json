@@ -1,7 +1,9 @@
 {
     "titleSite": "Développeur web",
+    "construction":"Construction en cours...",
     "home": {
         "title": "Bienvenue",
+        "myJourney": "Mon parcours",
         "presentation": {
             "history": {
                 "text1": "Après une réorientation professionnelle de deux ans, j’ai  obtenu un bac+2 en développement web et web mobile, suivi d’une licence informatique en alternance (3IL).",
@@ -29,7 +31,69 @@
             },
             "hobbies": {
                 "title":"Loisirs"
-            }
+            },
+            "learnMore": "En savoir plus"
+        }
+    },
+    "experiences-card": {
+        "cyim": {
+            "text1": "Entreprise de logiciels",
+            "text2": "Développeur web front-end (6 ans)"
+        },
+        "dynaidev": {
+            "text1": "Agence de développement web",
+            "text2": "Développeur web (1 an)"
+        },
+        "shop": {
+            "text1":"Gifi & FoirFouille",
+            "text2": "Employé libre-services"
+        }
+    },
+    "hobbiesCard": {
+        "basket": "Basket-ball",
+        "cook": "Cuisiner",
+        "videoGame": "Jeux vidéo"
+    },
+    "skillsCard": {
+        "framework": {
+            "title": "Framework, Librairies, Logiciel utilisés"
+        },
+        "skills": {
+            "title": "Compétences générales",
+            "work": "Travail en équipe",
+            "adaptation": "Adaptation",
+            "curieux": "Curieux",
+            "passion": "Passion"
+        },
+        "certif": {
+            "title": "Certifications obtenues"
+        }
+    },
+    "trainingCard": {
+        "bachelor":"Bachelor informatique en alternance",
+        "simplon": "Développeur web et web mobile",
+        "bts": "BTS Management des Unités Commerciales"
+    },
+    "footer": {
+        "text":"Disponible pour de nouveaux projets "        
+    },
+    "hobbiePage": {
+        "title": "Loisirs",
+        "basketball": {
+            "title": "BasketBall",
+            "citation": "'Je peux accepter l'échec, tout le monde peut échouer, mais je n'accepterai jamais de ne pas avoir essayé' MJ.",
+            "text": "Sur un terrain de basket, j'apprends à viser juste, à esquiver les obstacles et à construire des actions collectives. Bref, comme dans un bon projet web... sauf que là, je transpire un peu moins."
+        },
+        "cook": {
+            "title": "Cuisiner",
+            "citation": "'On ne peut pas faire de cuisine, si l'on n'aime pas les gens JR.'",
+            "text":"En cuisine, je mélange créativité, précision et goût du partage. Un peu comme quand je code : une bonne recette, quelques ingrédients secrets, beaucoup d'amour et hop un site qui donne envie de rester à table."
+        },
+        "videoGame": {
+            "title": "Jeux vidéo",
+            "citation": "'Jouer aux jeux vidéo augmente la créativité, et permet une vue plus détaillée, et améliore la concentration et rend les gens heureux'",
+            "text":"Quant aux jeux vidéo, surtout en coopération, ils m'ont formé à la communication rapide, à l'adaptation face aux imprévus... et à garder mon calme quand tout explose. Autant dire que les bugs en prod ne me font plus peur !"
         }
     }
+
 }

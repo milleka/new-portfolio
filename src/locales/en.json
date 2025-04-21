@@ -1,19 +1,97 @@
 {
     "titleSite": "Web developer",
+    "construction": "Construction in progress...",
     "home": {
         "title": "Welcome",
+        "myJourney": "My journey",
         "presentation": {
-    "history": {
-        "text1": "After a two-year professional retraining, I obtained a two-year degree in web and mobile development, followed by a bachelor's degree in computer science through a work-study program (3IL).",
-        "text2": "In November 2020, I joined CYIM as a Drupal developer, where I contributed to the creation of institutional websites for scientific conferences and learned societies. Later, in January 2022, I transitioned to the Registration team, which gave me the opportunity to learn Vue.js and develop a registration management system. Several deployments were carried out during conferences in Vienna and Paris, strengthening my experience in production rollouts and managing technical solutions in real-world conditions."
-    },
-    "passion": {
-        "text1": "What I am passionate about in web development is, above all, continuous learning and the improvement of my skills.",
-        "text2": "I enjoy working in a team to design functional and engaging projects, and I find real satisfaction in solving complex problems.",
-        "text3": "For me, being a web developer is not just about coding alone in front of a screen, but collaborating with other passionate people to turn an idea into a concrete solution.",
-        "text4": "Throughout my journey, I have developed a strong interest in front-end development, but I remain open to exploring more of the back-end in the future."
-    }
-}
+            "history": {
+                "text1": "After a two-year professional retraining, I obtained a two-year degree in web and mobile development, followed by a bachelor's degree in computer science through a work-study program (3IL).",
+                "text2": "In November 2020, I joined CYIM as a Drupal developer, where I contributed to the creation of institutional websites for scientific conferences and learned societies. Later, in January 2022, I transitioned to the Registration team, which gave me the opportunity to learn Vue.js and develop a registration management system. Several deployments were carried out during conferences in Vienna and Paris, strengthening my experience in production rollouts and managing technical solutions in real-world conditions."
+            },
+            "passion": {
+                "text1": "What I am passionate about in web development is, above all, continuous learning and the improvement of my skills.",
+                "text2": "I enjoy working in a team to design functional and engaging projects, and I find real satisfaction in solving complex problems.",
+                "text3": "For me, being a web developer is not just about coding alone in front of a screen, but collaborating with other passionate people to turn an idea into a concrete solution.",
+                "text4": "Throughout my journey, I have developed a strong interest in front-end development, but I remain open to exploring more of the back-end in the future."
+            }
+        },
+        "cards": {
+            "skills": {
+                "title":"Skills"
 
+            },
+            "training": {
+                "title":"Trainings"
+            },
+            "experience": {
+                "title":"Experience"
+            },
+            "hobbies": {
+                "title":"Hobbies"
+            },
+            "learnMore": "Learn more"
+        }
+    },
+    "experiences-card": {
+        "cyim": {
+            "text1": "Software Company",
+            "text2": "Front-End Web Developer (6 years)"
+        },
+        "dynaidev": {
+            "text1": "Web Development Agency",
+            "text2": "Web Developer (1 year)"
+        },
+        "shop": {
+            "text1": "Gifi & FoirFouille",
+            "text2": "Retail Store Employee"
+        }
+    },
+
+    "hobbiesCard": {
+        "basket": "Basketball",
+        "cook": "Cooking",
+        "videoGame": "Video Games"
+    },
+    "skillsCard": {
+        "framework": {
+            "title": "Frameworks, Libraries, Software Used"
+        },
+        "skills": {
+            "title": "General Skills",
+            "work": "Teamwork",
+            "adaptation": "Adaptability",
+            "curieux": "Curiosity",
+            "passion": "Passion"
+        },
+        "certif": {
+            "title": "Certifications Obtained"
+        }
+    },
+    "trainingCard": {
+        "bachelor": "Bachelor’s Degree in Computer Science (Work-Study Program)",
+        "simplon": "Web and Mobile Web Developer",
+        "bts": "BTS in Business Unit Management"
+    },
+    "footer": {
+        "text": "Available for new projects"
+    },
+    "hobbiePage": {
+        "title": "Hobbies",
+        "basketball": {
+            "title": "Basketball",
+            "citation": "'I can accept failure, everyone fails at something. But I can't accept not trying.' - MJ",
+            "text": "On a basketball court, I learn to aim accurately, dodge obstacles, and build collective actions. Basically, just like in a good web project... except I sweat a little less."
+        },
+        "cook": {
+            "title": "Cooking",
+            "citation": "'You can't make good food if you don't love people.' - JR",
+            "text": "In the kitchen, I mix creativity, precision, and a love of sharing. Just like when I code: a good recipe, a few secret ingredients, lots of love, and voilà—a site that makes you want to stick around."
+        },
+        "videoGame": {
+            "title": "Video Games",
+            "citation": "'Playing video games increases creativity, provides a detailed perspective, improves concentration, and makes people happy.'",
+            "text": "As for video games, especially cooperative ones, they taught me quick communication, adaptability to unexpected events... and how to stay calm when everything blows up. Let's just say production bugs don't scare me anymore!"
+        }
     }
 }

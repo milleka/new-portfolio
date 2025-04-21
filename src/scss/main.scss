@@ -3,3 +3,37 @@
 body {
     background-color: $gray--5;
 }
+
+div.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 5rem;
+    a {
+        text-decoration: none;
+        color: $primary;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: all 0.5s;
+        &::before {
+            font-family: "Material Design Icons";
+            color: $primary;
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+            @include icon("arrow-left-circle");
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+        &:hover {
+            color: $primary-200;
+            transition: all 0.5s;
+        }
+    }
+    div {
+        width:89px;
+    }
+}
