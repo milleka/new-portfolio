@@ -19,8 +19,25 @@
     }
     p {
         font-size: 1.2rem;
+        text-align: center;
     }
     p:last-child {
         font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .block {
+        img{
+            width: auto;
+            height: 10vw;
+        }
+
+        img {
+            &.school-3il {
+                width: auto;
+                height: 10vw;
+            }
+        }
     }
 }
