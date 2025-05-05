@@ -1,6 +1,6 @@
 {
     "titleSite": "Développeur web",
-    "construction":"Construction en cours...",
+    "construction": "Construction en cours...",
     "home": {
         "title": "Bienvenue",
         "myJourney": "Mon parcours",
@@ -15,22 +15,19 @@
                 "text3": "Pour moi, être développeur web, ce n’est pas simplement coder seul devant un écran, mais collaborer avec d’autres passionnés pour transformer une idée en une solution concrète.",
                 "text4": "Au fil de mon parcours, j’ai développé une appétence particulière pour le front-end, mais je reste ouvert à la possibilité d’explorer un peu plus le back-end dans le futur."
             }
-
-
         },
         "cards": {
             "skills": {
-                "title":"Compétences"
-
+                "title": "Compétences"
             },
             "training": {
-                "title":"Formations"
+                "title": "Formations"
             },
             "experience": {
-                "title":"Expériences"
+                "title": "Expériences"
             },
             "hobbies": {
-                "title":"Loisirs"
+                "title": "Loisirs"
             },
             "learnMore": "En savoir plus"
         }
@@ -45,7 +42,7 @@
             "text2": "Développeur web (1 an)"
         },
         "shop": {
-            "text1":"Gifi & FoirFouille",
+            "text1": "Gifi & FoirFouille",
             "text2": "Employé libre-services"
         }
     },
@@ -70,12 +67,12 @@
         }
     },
     "trainingCard": {
-        "bachelor":"Bachelor informatique en alternance",
+        "bachelor": "Bachelor informatique en alternance",
         "simplon": "Développeur web et web mobile",
         "bts": "BTS Management des Unités Commerciales"
     },
     "footer": {
-        "text":"Disponible pour de nouveaux projets "        
+        "text": "Disponible pour de nouveaux projets "
     },
     "hobbiePage": {
         "title": "Loisirs",
@@ -87,13 +84,20 @@
         "cook": {
             "title": "Cuisiner",
             "citation": "'On ne peut pas faire de cuisine, si l'on n'aime pas les gens JR.'",
-            "text":"En cuisine, je mélange créativité, précision et goût du partage. Un peu comme quand je code : une bonne recette, quelques ingrédients secrets, beaucoup d'amour et hop un site qui donne envie de rester à table."
+            "text": "En cuisine, je mélange créativité, précision et goût du partage. Un peu comme quand je code : une bonne recette, quelques ingrédients secrets, beaucoup d'amour et hop un site qui donne envie de rester à table."
         },
         "videoGame": {
             "title": "Jeux vidéo",
             "citation": "'Jouer aux jeux vidéo augmente la créativité, et permet une vue plus détaillée, et améliore la concentration et rend les gens heureux'",
-            "text":"Quant aux jeux vidéo, surtout en coopération, ils m'ont formé à la communication rapide, à l'adaptation face aux imprévus... et à garder mon calme quand tout explose. Autant dire que les bugs en prod ne me font plus peur !"
+            "text": "Quant aux jeux vidéo, surtout en coopération, ils m'ont formé à la communication rapide, à l'adaptation face aux imprévus... et à garder mon calme quand tout explose. Autant dire que les bugs en prod ne me font plus peur !"
         }
+    },
+    "skillsPage": {
+        "drupalExp": "Utilisé depuis 6 ans sur des projets pour des sociétés scientifiques ainsi que pour la réalisation de projets destinés à des congrès scientifiques.",
+        "vueExp": "Utilisé depuis 3 ans au sein du pôle registration de CYIM, avec l'utilisation de requêtes, de mutations et de diverses librairies.",
+        "baseExp": "Utilisé depuis 8 ans sur différents projets personnels et professionnels, au cours de mes périodes de formation, de stages et d'emplois.",
+        "symfonyExp": "Utilisé pendant 2 ans sur mon alternance, j'ai travaillé sur les versions 4.4 et 5 de symfony.",
+        "flutterExp": "Utilisé depuis 1 an dans un projet de registration pour développer une application Flutter Android sur tablette, gérée via un Raspberry Pi, permettant l'impression de badges après le scan d'un QR code sur la machine.",
+        "otherExp": "Utilisés depuis 8 ans sur divers projets personnels et professionnels, au cours de mes périodes de formation, de stages et d'emplois."
     }
-
 }
