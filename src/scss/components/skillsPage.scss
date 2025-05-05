@@ -1,0 +1,176 @@
+@use '../index' as *;
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  min-height: 90vh;
+}
+
+.skill-card {
+  padding: 1.5rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.list-icon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  background-color: $white;
+  width: 100px;
+  height: 100px;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+
+/* Bounce In Animation */
+.bounce-in {
+  animation: bounceIn 0.6s both;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  70% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Progress Bar */
+.progress-bar-container {
+  margin: 1rem 0;
+}
+
+.progress-bar-bg {
+  width: 60%;
+  margin: auto;
+  height: 12px;
+  background: $white;
+  border-radius: 6px;
+  overflow: hidden;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: $primary;
+  transition: width 0.3s ease;
+}
+
+/* Fade In Text */
+// .fade-in {
+//   animation: fadeIn 1s forwards;
+// }
+
+.experience-text {
+  background-color: $white;
+  width: 70%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px $gray--2;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
+
+  &.slide-right {
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+  &.slide-left {
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

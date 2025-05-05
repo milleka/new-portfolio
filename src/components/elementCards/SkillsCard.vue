@@ -46,7 +46,10 @@
         <div class="line">
             <img src="/assets/images/icon/docker.png" alt="docker"/>
             <img src="/assets/images/icon/opquast.png" alt="opquast"/>
-            <img src="/assets/images/icon/agile.png" alt="agile"/>
+            <div>
+                <img src="/assets/images/icon/agile.png" alt="agile"/>
+                <p>Agile scrum</p>
+            </div>
         </div>
     </div>
 </template>

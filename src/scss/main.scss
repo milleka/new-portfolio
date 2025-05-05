@@ -11,6 +11,7 @@ div.header {
     justify-content: space-between;
     padding: 1rem;
     height: 5rem;
+
     a {
         text-decoration: none;
         color: $primary;
@@ -19,6 +20,7 @@ div.header {
         font-size: 1.2rem;
         cursor: pointer;
         transition: all 0.5s;
+
         &::before {
             font-family: "Material Design Icons";
             color: $primary;
@@ -28,12 +30,18 @@ div.header {
             animation: spin 1s linear infinite;
             display: inline-block;
         }
+
         &:hover {
             color: $primary-200;
             transition: all 0.5s;
         }
     }
+
     div {
-        width:89px;
+        width: 89px;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
     }
 }

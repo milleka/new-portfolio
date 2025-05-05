@@ -18,17 +18,16 @@
         },
         "cards": {
             "skills": {
-                "title":"Skills"
-
+                "title": "Skills"
             },
             "training": {
-                "title":"Trainings"
+                "title": "Trainings"
             },
             "experience": {
-                "title":"Experience"
+                "title": "Experience"
             },
             "hobbies": {
-                "title":"Hobbies"
+                "title": "Hobbies"
             },
             "learnMore": "Learn more"
         }
@@ -47,7 +46,6 @@
             "text2": "Retail Store Employee"
         }
     },
-
     "hobbiesCard": {
         "basket": "Basketball",
         "cook": "Cooking",
@@ -93,5 +91,13 @@
             "citation": "'Playing video games increases creativity, provides a detailed perspective, improves concentration, and makes people happy.'",
             "text": "As for video games, especially cooperative ones, they taught me quick communication, adaptability to unexpected events... and how to stay calm when everything blows up. Let's just say production bugs don't scare me anymore!"
         }
+    },
+    "skillsPage": {
+        "drupalExp": "Used for 6 years on projects for scientific organizations as well as for the development of projects intended for scientific conferences.",
+        "vueExp": "Used for 3 years within the registration department at CYIM, involving queries, mutations, and various libraries.",
+        "baseExp": "Used for 8 years on various personal and professional projects during my training, internships, and jobs.",
+        "symfonyExp": "Used for 2 years during my apprenticeship, where I worked with Symfony versions 4.4 and 5.",
+        "flutterExp": "Used for 1 year in a registration project to develop a Flutter Android tablet application, managed via a Raspberry Pi, allowing badge printing after scanning a QR code on the device.",
+        "otherExp": "Used for 8 years on various personal and professional projects during my training, internships, and jobs."
     }
 }
