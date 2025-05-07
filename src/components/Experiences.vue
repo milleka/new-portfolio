@@ -1,62 +1,60 @@
 <template>
-    <HeaderPage :title="'home.cards.experience.title'"/>
-    <div class="flex flex-col items-center justify-center min-h-screen">
-      <img src="/assets/images/constructions.svg" alt="Construction" class="w-48 h-48 mb-4" />
-      <p class="text-2xl font-bold">{{ displayedText }}</p>
+  <HeaderPage :title="'home.cards.experience.title'"/>
+  <Globe @formation-click="openModal" />
+  <div v-if="showModal" class="modal">
+    <div class="bg-white">
+      <header>
+        <h2 class="text-lg font-bold mb-2">{{ selectedFormation.company }}</h2>
+        <a @click="showModal = false"></a>
+      </header>
+      <div class="block-top">
+        <img :src="selectedFormation.logo" alt="logo-{{ selectedFormation.company }}"/>
+        <div>
+          <p><span>Lieu:</span>{{ selectedFormation.name }}</p>
+          <p><span>Date:</span>{{ selectedFormation.date }}</p>
+          <p><span>Durée:</span>{{ selectedFormation.duration }}</p>
+          <h5>Description de l'entreprise</h5>
+          <p>{{ selectedFormation.description }}</p>
+        </div>
+      </div>
+      <div class="block-middle">
+        <div class="role">
+          <h4>mon role</h4>
+          {{ selectedFormation.role }}
+        </div>
+        <div class="line"></div>
+        <div class="listExp">
+          <h4>Mes compétences</h4>
+          <ul>
+            <li v-for="el in selectedFormation.listExp">{{ el }}</li>
+          </ul>
+        </div>
+      </div>
+      <p class="mb-4"></p>
+      <div class="list">
+      </div>
     </div>
-  </template>
-  
-  <script setup>
-  import { ref, onMounted } from 'vue';
-  import HeaderPage from './HeaderPage.vue'
-  import { useI18n } from "vue-i18n";
+  </div>
+</template>
 
-  const { t } = useI18n();
+<script setup>
+import Globe from './globe/Globe.vue'
+import { ref } from 'vue'
+import HeaderPage from './HeaderPage.vue'
 
-  const fullText =  t('construction');
-  
-  const displayedText = ref('')
-  let index = 0
-  
-  const typeWriter = () => {
-    displayedText.value = fullText.slice(0, index)
-    index++
-  
-    if (index > fullText.length) {
-      setTimeout(() => {
-        index = 0
-        typeWriter()
-      }, 1500)
-    } else {
-      setTimeout(typeWriter, 100)
-    }
-  }
-  
-  onMounted(() => {
-    typeWriter()
-  })
-  </script>
-  
+const showModal = ref(false)
+const selectedFormation = ref({})
+
+function openModal(formation) {
+  selectedFormation.value = formation
+  showModal.value = true
+}
+
+// Tu passes ces refs à ton composant Globe via props ou via un composable si besoin
+</script>
+
+
 <style lang="scss" scoped>
-    @use '../scss/index' as *;
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    padding: 2rem;
-
-    img {
-        width: 50vw;
-    }
-  }
-  p {
-    transition: all 0.3s ease;
-    font-size: 2rem;
-    height: 2rem;
-    color: $primary;
-    font-weight: 500;
-  }
+    @forward "../scss/components/experiencesPage.scss"
 </style>
   
