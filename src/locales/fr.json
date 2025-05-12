@@ -99,5 +99,59 @@
         "symfonyExp": "Utilisé pendant 2 ans sur mon alternance, j'ai travaillé sur les versions 4.4 et 5 de symfony.",
         "flutterExp": "Utilisé depuis 1 an dans un projet de registration pour développer une application Flutter Android sur tablette, gérée via un Raspberry Pi, permettant l'impression de badges après le scan d'un QR code sur la machine.",
         "otherExp": "Utilisés depuis 8 ans sur divers projets personnels et professionnels, au cours de mes périodes de formation, de stages et d'emplois."
+    },
+    "experiencesPage": {
+        "location": "Lieu",
+        "date": "Date",
+        "duration": "Durée",
+        "company": "Descritpion de l'entreprise",
+        "myRole": "Mon rôle",
+        "skills": "Compétences acquises",
+        "desc": {
+            "gifi": "Gifi est une enseigne française spécialisée dans la distribution de produits à petits prix pour la maison, la décoration, les loisirs et le quotidien. Avec un réseau de centaines de magasins à travers la France, Gifi propose une large gamme d’articles accessibles pour améliorer le cadre de vie de ses clients.",
+            "ff": "La Foir’Fouille est une chaîne de magasins française dédiée à l’équipement et à la décoration de la maison. Elle offre un large choix de produits dans des univers variés tels que la cuisine, le rangement, les fêtes, le textile et les meubles, en mettant l’accent sur l’accessibilité, le renouvellement fréquent des collections et les bons plans.",
+            "dynaidev": "Dynaidev est agence web spécialisée dans le développement de solutions numériques sur mesure. Elle propose des services variés allant de la création de sites web à la mise en place d’applications métiers, en passant par le conseil en stratégie digitale. L’agence se distingue par son approche personnalisée et son engagement envers la satisfaction client.",
+            "cyim": "Cyim est une société de services informatiques spécialisée dans l’accompagnement des sociétés savantes pour la création de leurs sites web institutionnels ainsi que la gestion de leurs congrès."
+        },
+        "role": {
+            "gifi": "Chez Gifi, j’ai occupé le poste d’employé polyvalent au sein du rayon Loisirs. Mes missions consistaient à assurer la mise en rayon des produits, veiller à leur bonne présentation, gérer les stocks, et accompagner les clients dans leurs recherches. J’étais également amené à participer à la réorganisation des rayons selon les opérations commerciales en cours, tout en veillant à la propreté et au bon agencement de l’espace de vente.",
+            "ff": "À La Foir’Fouille, j’ai travaillé en tant qu’employé polyvalent dans le rayon Cuisine. Je m’occupais de la réception des marchandises, du réassort et de la mise en avant des produits selon les directives merchandising. J’assurais également le conseil client, en veillant à proposer des solutions adaptées à leurs besoins. Mon rôle impliquait rigueur, sens de l’organisation et dynamisme pour maintenir un rayon attractif et bien approvisionné.",
+            "dynaidev": "Développeur en alternance chez Dynaidev, j’ai eu l’opportunité de travailler sur divers projets, principalement en PHP et Symfony. J’ai participé à la création d’applications web sur mesure pour des clients variés, en mettant l’accent sur la qualité du code et l’expérience utilisateur. Mon rôle impliquait également la collaboration avec les équipes de développement pour assurer une intégration fluide des fonctionnalités.",
+            "cyim": "J’ai été recruté en tant que développeur Drupal pour participer à la mise en place de plateformes web dédiées aux congrès virtuels et aux sites institutionnels. Par la suite, j’ai intégré pendant trois ans la nouvelle équipe Registration, avec pour mission de développer une interface utilisateur en Vue 3 permettant la gestion des congressistes : création de badges, ajout de nouveaux intervenants, import/export de données via fichiers CSV, gestion des paiements et de leur historique, etc. En complément, j’ai collaboré avec l’équipe mobile pour développer une application Flutter, déployée sur Android et affichée sur un écran 7 pouces connecté à un Raspberry Pi 4. Cette application permet aux congressistes de s’enregistrer de manière autonome et d’imprimer leur badge en scannant un QR code reçu en amont de l’événement."
+        },
+        "listExp": {
+            "gifi": {
+                "exp1": "accueil client",
+                "exp2": "encaissement client",
+                "exp3": "gestion d'équipe",
+                "exp4": "mise en place d'un rayon"
+            },
+            "ff": {
+                "exp1": "accueil client",
+                "exp2": "encaissement client",
+                "exp3": "gestion d'équipe",
+                "exp4": "mise en place d'un rayon",
+                "exp5": "gestion des stocks",
+                "exp6": "gestion des fournisseurs"
+            },
+            "dynaidev": {
+                "exp1": "Symfony",
+                "exp2": "PHP",
+                "exp3": "MySQL",
+                "exp4": "React",
+                "exp5": "wordpress",
+                "exp6": "encadrement d'une équipe"
+            },
+            "cyim": {
+                "exp1": "Drupal",
+                "exp2": "VueJs",
+                "exp3": "Flutter",
+                "exp4": "mise en place des solutions techniques en congrès",
+                "exp5": "installation du réseaux",
+                "exp6": "accompagnement client grace au solution mise en place",
+                "exp7": "répondre à des différentes problematiques rencontrées",
+                "exp8": "installation d'un matériel de gestion de congrès (android,flutter, raspberryP4, imprimante)"
+            }
+        }
     }
 }
