@@ -14,6 +14,7 @@
         </div>
        </div>
 
+      <p>Mon savoir faire ( en %)</p>
       <!-- Barre de compétences -->
       <div v-if="skill.showBar" class="progress-bar-container">
         <div class="progress-bar-bg">

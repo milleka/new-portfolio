@@ -99,5 +99,59 @@
         "symfonyExp": "Used for 2 years during my apprenticeship, where I worked with Symfony versions 4.4 and 5.",
         "flutterExp": "Used for 1 year in a registration project to develop a Flutter Android tablet application, managed via a Raspberry Pi, allowing badge printing after scanning a QR code on the device.",
         "otherExp": "Used for 8 years on various personal and professional projects during my training, internships, and jobs."
+    },
+    "experiencesPage": {
+        "location": "Location",
+        "date": "Date",
+        "duration": "Duration",
+        "company": "Company description",
+        "myRole": "My role",
+        "skills": "Skills acquired",
+        "desc": {
+            "gifi": "Gifi is a French retail chain specializing in the distribution of low-cost products for the home, decoration, leisure, and daily life. With hundreds of stores across France, Gifi offers a wide range of affordable items to help improve its customers' living environments.",
+            "ff": "La Foir’Fouille is a French retail chain dedicated to home equipment and decoration. It offers a broad selection of products in various categories such as kitchenware, storage, celebrations, textiles, and furniture, with a focus on affordability, frequently renewed collections, and great deals.",
+            "dynaidev": "Dynaidev is a web agency specializing in the development of custom digital solutions. It offers various services ranging from website creation to the implementation of business applications, along with digital strategy consulting. The agency stands out for its personalized approach and commitment to client satisfaction.",
+            "cyim": "Cyim is an IT services company specializing in supporting learned societies with the creation of institutional websites and the management of their conferences."
+        },
+        "role": {
+            "gifi": "At Gifi, I worked as a versatile employee in the Leisure department. My tasks included stocking shelves, ensuring proper product presentation, managing inventory, and assisting customers with their needs. I also helped reorganize sections according to ongoing commercial operations while maintaining cleanliness and good organization in the sales area.",
+            "ff": "At La Foir’Fouille, I worked as a versatile employee in the Kitchen department. I handled merchandise reception, restocking, and product displays according to merchandising guidelines. I also provided customer advice, ensuring I offered solutions tailored to their needs. My role required precision, organizational skills, and energy to maintain an attractive and well-stocked department.",
+            "dynaidev": "As an apprentice developer at Dynaidev, I had the opportunity to work on various projects, mainly using PHP and Symfony. I participated in the creation of custom web applications for different clients, focusing on code quality and user experience. My role also involved collaborating with development teams to ensure smooth integration of features.",
+            "cyim": "I was hired as a Drupal developer to help set up web platforms for virtual conferences and institutional websites. I then joined the new Registration team for three years, where my role was to develop a Vue 3 user interface for managing attendees: badge creation, adding new speakers, importing/exporting data via CSV files, managing payments and their history, etc. Additionally, I collaborated with the mobile team to develop a Flutter application deployed on Android and displayed on a 7-inch screen connected to a Raspberry Pi 4. This app allows attendees to self-register and print their badge by scanning a QR code received before the event."
+        },
+        "listExp": {
+            "gifi": {
+                "exp1": "customer reception",
+                "exp2": "customer checkout",
+                "exp3": "team management",
+                "exp4": "shelf setup"
+            },
+            "ff": {
+                "exp1": "customer reception",
+                "exp2": "customer checkout",
+                "exp3": "team management",
+                "exp4": "shelf setup",
+                "exp5": "stock management",
+                "exp6": "supplier management"
+            },
+            "dynaidev": {
+                "exp1": "Symfony",
+                "exp2": "PHP",
+                "exp3": "MySQL",
+                "exp4": "React",
+                "exp5": "WordPress",
+                "exp6": "team supervision"
+            },
+            "cyim": {
+                "exp1": "Drupal",
+                "exp2": "VueJs",
+                "exp3": "Flutter",
+                "exp4": "implementation of technical solutions for conferences",
+                "exp5": "network setup",
+                "exp6": "client support through implemented solutions",
+                "exp7": "addressing various encountered issues",
+                "exp8": "setup of conference management hardware (Android, Flutter, Raspberry Pi 4, printer)"
+            }
+        }
     }
 }
