@@ -153,5 +153,23 @@
                 "exp8": "setup of conference management hardware (Android, Flutter, Raspberry Pi 4, printer)"
             }
         }
+    },
+    "trainingPage": {
+        "bac": {
+            "title": "Vocational Baccalaureate in Commerce",
+            "desc": "This diploma gave me my first professional experience in customer relations, sales, and teamwork. This hands-on approach is a real asset for designing user-oriented and accessible web interfaces."
+        },
+        "bts": {
+            "title": "BTS MUC (Management of Commercial Units) – 2-Year Degree",
+            "desc": "A program focused on management, customer relations, and sales. It helped me develop skills in communication, needs analysis, and project management, which are valuable today for understanding end-user expectations and collaborating effectively with multidisciplinary teams."
+        },
+        "simplon": {
+            "title": "Web and Mobile Web Developer Training – Simplon",
+            "desc": "An intensive full-stack web development program. I learned solid foundations in HTML, CSS, JavaScript, and PHP, as well as how to use frameworks like React, Symfony, and Laravel. This training marked the real beginning of my career change into development, with a strong emphasis on practical work through collaborative projects."
+        },
+        "3il": {
+            "title": "Bachelor in Web Development – 3iL Limoges (3-Year Degree)",
+            "desc": "A specialized program in web development, deepening my technical skills. I worked on complex web projects, learned modern languages (JavaScript, Vue.js, Node.js, etc.), databases (MySQL, MongoDB), and professional practices such as version control with Git, REST APIs, and testing. This training allowed me to consolidate my knowledge and become fully operational as a web developer."
+        }
     }
 }

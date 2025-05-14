@@ -1,0 +1,68 @@
+@use '../index' as *;
+
+.v-timeline--vertical.v-timeline.laptop {
+  margin: 2rem;
+  min-height: calc(100% - 80px - 80px - 57px);
+
+  .v-card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .v-card {
+    .v-card-text {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        padding-top: 1rem;
+      }
+
+      img {
+        width: 12rem;
+        margin: 1rem auto;
+      }
+    }
+  }
+}
+
+.mobile {
+  margin: 2rem;
+
+  .v-timeline-item__body {
+    .v-alert {
+      .header-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h4 {
+          margin-right: 2rem;
+        }
+      }
+
+      .element {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 12rem;
+          margin: 1rem auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1384px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1384px) {
+  .laptop {
+    display: none;
+  }
+}

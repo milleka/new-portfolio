@@ -153,5 +153,23 @@
                 "exp8": "installation d'un matériel de gestion de congrès (android,flutter, raspberryP4, imprimante)"
             }
         }
+    },
+    "trainingPage": {
+        "bac": {
+            "title": "Bac pro Commerce",
+            "desc": "Ce diplôme m’a permis d’acquérir une première expérience professionnelle dans la relation client, la vente et le travail en équipe. Cette approche terrain est un vrai atout pour concevoir des interfaces web orientées utilisateurs et accessibles."
+        },
+        "bts": {
+            "title": "BTS MUC (Management des Unités Commerciales) – Bac +2",
+            "desc": "Formation axée sur la gestion, la relation client et la vente. Elle m’a permis de développer des compétences en communication, en analyse des besoins et en gestion de projet, utiles aujourd’hui pour comprendre les attentes des utilisateurs finaux et collaborer efficacement avec des équipes pluridisciplinaires."
+        },
+        "simplon": {
+            "title": "Formation Développeur Web et Web Mobile – Simplon",
+            "desc": "Formation intensive en développement web full stack. J’y ai appris les bases solides du HTML, CSS, JavaScript, PHP, ainsi que l’utilisation de frameworks comme react, Symfony et Laravel. Cette formation a marqué le début concret de ma reconversion vers le développement, avec une forte mise en pratique via des projets collaboratifs."
+        },
+        "3il": {
+            "title": "Bachelor Développement Web – 3iL Limoges (Bac +3)",
+            "desc": "Formation spécialisée en développement web, approfondissant mes compétences techniques. J’y ai travaillé sur des projets web complexes, appris des langages modernes (JavaScript, Vue.js, Node.js, etc.), des bases de données (MySQL, MongoDB) et des pratiques professionnelles comme la gestion de version avec Git, les API REST et les tests. Cette formation m’a permis de consolider mes connaissances et de devenir pleinement opérationnel en tant que développeur web."
+        }
     }
 }

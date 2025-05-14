@@ -7,6 +7,5 @@
 }
 
 @mixin variable-icon-font($icon-code) {
-    content: #{'"\\'}#{$icon-code + '"'};
-  }
-  
+  content: #{'"\\'}#{$icon-code + '"'};
+}
