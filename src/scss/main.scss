@@ -1,7 +1,13 @@
 @use './_index.scss' as *;
 
 body {
-    background-color: $gray--5;
+    background-color: $gray--7;
+    min-height: 90vh;
+}
+
+main,
+div#app {
+    min-height: 90vh;
 }
 
 div.header {
