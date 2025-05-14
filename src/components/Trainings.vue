@@ -3,7 +3,6 @@
 
   <!-- mobile -->
   <v-timeline class="mobile" side="end">
-    {{ items }}
     <v-timeline-item
       v-for="item in items"
       :key="item.id"
