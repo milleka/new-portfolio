@@ -48,10 +48,34 @@
     </FlipCard>
   </div>
 
+  <h2 class="parcours">{{ $t('home.miniProjects') }}</h2>
+
+  <div class="mini-project">
+    <div class="block-game">
+        <v-tooltip
+          :location="location"
+          no-click-animation
+        >
+
+          <template v-slot:activator="{ props }">
+            <v-icon v-bind="props" icon="mdi-information-symbol"></v-icon>
+          </template>
+
+          <div>
+            <p>Évitez les bugs qui tombent en déplaçant le joueur à gauche ou à droite.</p>
+            <p>Le jeu devient plus rapide avec le temps.</p>
+            <p>Touchez un bug = Game Over !</p>
+          </div>
+        </v-tooltip>
+      <span></span>
+      <img src="/assets/images/miniProject/bugDodger.png" alt="bugDodger" />
+      <RouterLink class="bugDodger" :to="{ name: 'bugDodger'}">bugDodger</RouterLink>
+    </div>
+  </div>
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { useI18n } from "vue-i18n";
 import FlipCard from './FlipCard.vue';
 
@@ -59,8 +83,16 @@ import SkillsCard from './elementCards/SkillsCard.vue';
 import TrainingsCard from './elementCards/TrainingsCard.vue'
 import ExperiencesCard from './elementCards/ExperiencesCard.vue'
 import HobbiesCard from './elementCards/HobbiesCard.vue'
+import { RouterLink } from 'vue-router';
  
 const { t } = useI18n();
+
+const locationSide = ref('left')
+const locationAlign = ref('center')
+
+const location = computed(() => {
+  return `${locationSide.value} ${locationAlign.value}`
+})
 
 const images = [
   '/assets/images/profile.png',

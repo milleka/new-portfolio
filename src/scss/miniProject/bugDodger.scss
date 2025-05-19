@@ -1,0 +1,111 @@
+@use '../index' as *;
+
+button {
+  transition: background 0.2s;
+}
+
+.drop-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+  div {
+    color: $white;
+    font-size: 1.6rem;
+    font-weight: 400;
+    width: fit-content;
+    background-color: rgba($black, 0.4);
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+}
+
+.quit-game {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 1rem;
+  z-index: 2;
+
+  a {
+    padding: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: $white;
+    background-color: rgba($black, 0.4);
+    border-radius: 2rem;
+
+    &:hover {
+      background-color: rgba($black, 0.6);
+      transition: all 0.5s;
+    }
+  }
+
+  &.portrait {
+    top: unset;
+  }
+}
+
+.score-game-over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background-color: $white;
+  padding: 1rem 0;
+  box-shadow: 0 1px 3px $gray--2;
+
+  .block {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .final-score {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+
+    .restart-game {
+      background-color: $primary;
+      color: $white;
+      padding: 0.5rem 2rem;
+      border-radius: 1rem;
+
+      &:hover {
+        background-color: $primary-200;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+
+.block-button-mobile {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+
+  button {
+    background-color: rgba($black, 0.4);
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .block-button-mobile {
+    display: none;
+  }
+}
