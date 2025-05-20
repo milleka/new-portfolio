@@ -5,7 +5,7 @@ import HobbieView from "../views/HobbieView.vue";
 import ExperiencesView from "../views/ExperiencesView.vue";
 import SkillsView from "../views/SkillsView.vue";
 import TrainingsView from "../views/TrainingsView.vue";
-import BugDodgerView from "../views/bugDodgerView.vue";
+import BugDodgerView from "../views/BugDodgerView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_APP_ORIGIN),
