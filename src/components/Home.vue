@@ -30,6 +30,8 @@
     </div>
   </div>
 
+  <ContactMe/>
+
   <h2 class="parcours">{{ $t('home.myJourney') }}</h2>
 
   <div class="card-section">
@@ -83,6 +85,7 @@ import SkillsCard from './elementCards/SkillsCard.vue';
 import TrainingsCard from './elementCards/TrainingsCard.vue'
 import ExperiencesCard from './elementCards/ExperiencesCard.vue'
 import HobbiesCard from './elementCards/HobbiesCard.vue'
+import ContactMe from './ContactMe.vue';
 import { RouterLink } from 'vue-router';
  
 const { t } = useI18n();
