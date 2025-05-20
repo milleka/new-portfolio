@@ -68,6 +68,15 @@
     }
   }
 
+  function onWindowResize() {
+    if (!camera || !renderer) return
+
+    camera.aspect = window.innerWidth / window.innerHeight
+    camera.updateProjectionMatrix()
+
+    renderer.setSize(window.innerWidth, window.innerHeight)
+  }
+
   function pauseGame() {
     cancelAnimationFrame(animationId)
     isGamePaused = true
@@ -195,12 +204,14 @@
     clearInterval(difficultyTimer)
     window.removeEventListener('keydown', handleKey)
     init()
+    onWindowResize()
   }
 
   onMounted(() => {
     init()
     window.addEventListener("orientationchange", checkOrientation)
     window.addEventListener("resize", checkOrientation)
+    window.addEventListener('resize', onWindowResize)
   })
 
   onBeforeUnmount(() => {
@@ -209,6 +220,7 @@
     window.removeEventListener('keydown', handleKey)
     window.removeEventListener("orientationchange", checkOrientation)
     window.removeEventListener("resize", checkOrientation)
+    window.removeEventListener('resize', onWindowResize)
   })
 </script>
 
